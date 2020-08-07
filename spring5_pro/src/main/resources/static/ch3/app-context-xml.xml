@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:v="http://www.springframework.org/schema/c"
+       xmlns:c="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+         http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+    <bean id="injectCollection" class="am.gitc.ch3.provider.impl.Collectionlnjection">
+        <property name="map">
+            <map>
+                <entry key="someValue">
+                    <value>It's а Friday, we finally made it</value>
+                </entry>
+                <entry key="someBean">
+                    <ref bean="provider"/>
+                </entry>
+            </map>
+        </property>
+        <property name="props">
+            <props>
+                <prop key="firstName">John</prop>
+                <prop key="secondName">Mayer</prop>
+            </props>
+        </property>
+        <property name="set">
+            <set>
+                <value>I can't believe I get to see
+                    your face
+                </value>
+            </set>
+        </property>
+        <property name="list">
+            <list>
+                <value>You've been working and I've
+                    been waiting
+                </value>
+            </list>
+        </property>
+    </bean>
+    <bean class="java.lang.String"><constructor-arg value="first"/> </bean>
+    <bean class="java.lang.String"><constructor-arg value="second"/> </bean>
+    <bean class="java.lang.String"><constructor-arg value="third"/> </bean>
+
+    <context:component-scan base-package="am.gitc"/>
+</beans>

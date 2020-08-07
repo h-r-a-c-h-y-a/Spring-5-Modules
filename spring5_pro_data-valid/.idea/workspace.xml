@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1888e4c8-9c97-4272-87a8-ff26787e4cd0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cZdQzBfAmLDFmF0URIqlbINA3X" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.21034482" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="Application.ConvServDemo">
+    <configuration name="ConvServDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="am.gitc.ConvServDemo" />
+      <module name="spring5_pro_data-valid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="am.gitc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PropEditorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="am.gitc.PropEditorDemo" />
+      <module name="spring5_pro_data-valid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="am.gitc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ConvServDemo" />
+        <item itemvalue="Application.PropEditorDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1888e4c8-9c97-4272-87a8-ff26787e4cd0" name="Default Changelist" comment="" />
+      <created>1590740036833</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590740036833</updated>
+      <workItem from="1590740042286" duration="6344000" />
+      <workItem from="1590746512732" duration="14000" />
+      <workItem from="1590753721724" duration="3301000" />
+      <workItem from="1590818409662" duration="1090000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="768" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1590754908388">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="768" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.728@0.0.1280.728" timestamp="1590754908388" />
+    <state width="585" height="213" key="GridCell.Tab.0.bottom" timestamp="1590757129305">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="585" height="213" key="GridCell.Tab.0.bottom/0.0.1280.728@0.0.1280.728" timestamp="1590757129305" />
+    <state width="585" height="213" key="GridCell.Tab.0.center" timestamp="1590757129304">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="585" height="213" key="GridCell.Tab.0.center/0.0.1280.728@0.0.1280.728" timestamp="1590757129304" />
+    <state width="585" height="213" key="GridCell.Tab.0.left" timestamp="1590757129304">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="585" height="213" key="GridCell.Tab.0.left/0.0.1280.728@0.0.1280.728" timestamp="1590757129304" />
+    <state width="585" height="213" key="GridCell.Tab.0.right" timestamp="1590757129305">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="585" height="213" key="GridCell.Tab.0.right/0.0.1280.728@0.0.1280.728" timestamp="1590757129305" />
+    <state width="585" height="213" key="GridCell.Tab.1.bottom" timestamp="1590757129306">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="585" height="213" key="GridCell.Tab.1.bottom/0.0.1280.728@0.0.1280.728" timestamp="1590757129306" />
+    <state width="585" height="213" key="GridCell.Tab.1.center" timestamp="1590757129306">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="585" height="213" key="GridCell.Tab.1.center/0.0.1280.728@0.0.1280.728" timestamp="1590757129306" />
+    <state width="585" height="213" key="GridCell.Tab.1.left" timestamp="1590757129305">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="585" height="213" key="GridCell.Tab.1.left/0.0.1280.728@0.0.1280.728" timestamp="1590757129305" />
+    <state width="585" height="213" key="GridCell.Tab.1.right" timestamp="1590757129306">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="585" height="213" key="GridCell.Tab.1.right/0.0.1280.728@0.0.1280.728" timestamp="1590757129306" />
+    <state x="240" y="0" key="SettingsEditor" timestamp="1590746418352">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="240" y="0" key="SettingsEditor/0.0.1280.728@0.0.1280.728" timestamp="1590746418352" />
+    <state x="670" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1590819106617">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="670" y="188" key="com.intellij.ide.util.TipDialog/0.0.1280.728@0.0.1280.728" timestamp="1590819106617" />
+    <state x="419" y="57" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1590745432827">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="419" y="57" key="com.intellij.javaee.MapExternalResourceDialog/0.0.1280.728@0.0.1280.728" timestamp="1590745432827" />
+    <state x="131" y="67" key="new project wizard" timestamp="1590819372709">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="131" y="67" key="new project wizard/0.0.1280.728@0.0.1280.728" timestamp="1590819372709" />
+    <state x="620" y="158" key="run.anything.popup" timestamp="1590740618276">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="620" y="158" key="run.anything.popup/0.0.1280.728@0.0.1280.728" timestamp="1590740618276" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am/gitc/PropEditorDemo.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am/gitc/ConvServDemo.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am/gitc/StringToDateTimeConverter.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am/gitc/StringToDateTimeConverter.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am/gitc/StringToDateTimeConverter.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am/gitc/AppConfig.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am/gitc/AppConfig.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am/gitc/AppConfig.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am/gitc/AppConfig.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

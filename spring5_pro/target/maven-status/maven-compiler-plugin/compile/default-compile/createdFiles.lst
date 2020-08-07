@@ -1,0 +1,8 @@
+am\gitc\config\HelloWorldConfig.class
+module-info.class
+am\gitc\provider\impl\HelloWorldMessageProvider.class
+am\gitc\provider\impl\StandardOutMessageRenderer.class
+am\gitc\provider\MessageRenderer.class
+am\gitc\HelloWorld.class
+am\gitc\factory\MessageSupportFactory.class
+am\gitc\provider\MessageProvider.class

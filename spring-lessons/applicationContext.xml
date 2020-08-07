@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:c="http://www.springframework.org/schema/c"
+       xmlns:p="http://www.springframework.org/schema/p" xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:jee="http://www.springframework.org/schema/jee"
+       xmlns:cache="http://www.springframework.org/schema/cache" xmlns:mvc="http://www.springframework.org/schema/cache"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee.xsd http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache.xsd
+http://www.springframework.org/schema/cache  ">
+
+    <bean class="org.springframework.beans.factory.config.CustomScopeConfigurer">
+        <property name="scopes">
+            <map>
+                <entry key="myThreadScope">
+                    <bean class="javay.main.scopes.MyThreadScope"/>
+                </entry>
+            </map>
+        </property>
+    </bean>
+    <bean id="myBean" class="javay.main.scopes.MyBean" scope="myThreadScope">
+        <property name="name" value="Dinesh"/>
+    </bean>
+    <bean id="transferService" class="javay.main.service.TransferServiceImpl"
+          c:jdbcAccountRepo-ref="accountRepository"
+          c:jdbcTransferRepo-ref="transferRepository">
+    </bean>
+    <bean id="accountRepository"
+          class="javay.main.repository.impl.JdbcAccountRepository"
+          c:dataSource-ref="dataSource"
+          destroy-method="clearCache">
+    </bean>
+    <bean id="transferRepository"
+          class="javay.main.repository.impl.JdbcTransferRepository"
+          c:dataSource-ref="dataSource"
+          init-method="populateCache">
+    </bean>
+    <bean id="transactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager"
+          p:dataSource-ref="dataSource"/>
+    <!--    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource"-->
+    <!--          p:driverClassName="org.postgresql.Driver"-->
+    <!--          p:url="jdbc:postgresql://localhost:5432/bank"-->
+    <!--          p:username="postgres"-->
+    <!--          p:password="root"/>-->
+    <bean id="myBeanPostProcessor" class="javay.main.post_processors.MyBeanPostProcessor"/>
+    <bean id="loggingAspect" class="javay.main.aspects.LoggingAspect"/>
+    <aop:config>
+        <aop:aspect id="loggingAspect" ref="loggingAspect">
+            <aop:before method="logBeforeTransfer" pointcut="execution(* *.transferAmount(..))"/>
+            <aop:after method="logAfterTransfer" pointcut="execution(* *.transferAmount(..))"/>
+        </aop:aspect>
+        <aop:aspect ref="auditing">
+            <aop:before method="validate" pointcut="execution(* javay.main.service.TransferService.transfer(..))"/>
+            <aop:before method="transferInstantiate"
+                        pointcut="execution(* javay.main.service.TransferService.transfer(..))"/>
+            <aop:after-returning method="success"
+                                 pointcut="execution(* javay.main.service.TransferService.transfer(..))"/>
+            <aop:after-throwing method="rollback"
+                                pointcut="execution(* javay.main.service.TransferService.transfer(..))"/>
+            <aop:around method="cache" pointcut="execution(* javay.main.service.TransferService.createCache(..))"/>
+        </aop:aspect>
+        <aop:advisor advice-ref="cacheAccount" pointcut="execution(* javay.main.dao.*.*(..))"/>
+    </aop:config>
+    <cache:advice id="cacheAccount" cache-manager="cacheManager">
+        <cache:caching>
+            <cache:cacheable cache="acountCache" method="findOne"/>
+            <cache:cache-put cache="acountCache" method="save" key="#result.id"/>
+            <cache:cache-evict cache="acountCache" method="remove"/>
+        </cache:caching>
+    </cache:advice>
+    <aop:aspectj-autoproxy/>
+    <bean id="auditing" class="javay.main.aspects.Auditing"/>
+    <!--    <context:component-scan base-package="javay.main"/>-->
+    <bean id="dataSource"
+          class="org.apache.commons.dbcp.BasicDataSource"
+          destroy-method="close"
+          p:driverClassName="org.postgresql.Driver"
+          p:url="jdbc:postgresql://localhost:5432/bank"
+          p:username="postgres"
+          p:password="root"
+          p:initialSize="5"
+          p:maxActive="10"/>
+    <cache:annotation-driven/>
+    <mvc:annotation-driven/>
+    <bean id="cacheManager" class="org.springframework.cache.concurrent.ConcurrentMapCacheManager"/>
+    <!--    <jee:jndi-lookup id="dataSource" jndi-name="java:comp/env/jdbc/datasource"/>-->
+</beans>

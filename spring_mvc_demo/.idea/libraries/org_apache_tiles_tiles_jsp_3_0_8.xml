@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="org.apache.tiles:tiles-jsp:3.0.8" type="repository">
+    <properties maven-id="org.apache.tiles:tiles-jsp:3.0.8" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/tiles-jsp-3.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tiles-servlet-3.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tiles-core-3.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-digester-2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-beanutils-1.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jcl-over-slf4j-1.7.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tiles-request-servlet-1.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tiles-template-3.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tiles-api-3.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tiles-autotag-core-runtime-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tiles-request-jsp-1.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tiles-request-api-1.0.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

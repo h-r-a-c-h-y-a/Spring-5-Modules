@@ -1,0 +1,34 @@
+module spring5.pro.tx {
+    requires java.sql;
+    requires java.xml;
+    requires java.annotation;
+    requires java.naming;
+    requires spring.boot;
+    requires spring.boot.autoconfigure;
+    requires org.aspectj.weaver;
+    requires org.hibernate.orm.core;
+    requires org.slf4j;
+    requires commons.dbcp;
+    requires com.fasterxml.classmate;
+    requires lombok;
+    requires net.bytebuddy;
+    requires java.xml.bind;
+    requires com.google.common;
+    requires java.persistence;
+    requires spring.data.jpa;
+    requires spring.context;
+    requires spring.beans;
+    requires spring.orm;
+    requires spring.tx;
+    requires spring.jdbc;
+    requires spring.core;
+    requires spring.data.commons;
+    exports am.gitc.spring5_pro_tx.service.impl to spring.beans;
+    exports am.gitc.spring5_pro_tx to spring.beans, spring.context;
+    exports am.gitc.spring5_pro_tx.config to spring.beans, spring.context;
+    exports am.gitc.spring5_pro_tx.entities to spring.beans;
+    opens am.gitc.spring5_pro_tx to spring.core;
+    opens am.gitc.spring5_pro_tx.config to spring.core;
+    opens am.gitc.spring5_pro_tx.entities to org.hibernate.orm.core, spring.core;
+    opens am.gitc.spring5_pro_tx.service.impl to spring.core;
+}

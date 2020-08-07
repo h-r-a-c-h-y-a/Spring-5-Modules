@@ -1,0 +1,17 @@
+<tiles-definitions>
+    <definition name="base.definition" template="/WEB-INF/pages/mainTemplate.jsp">
+        <put-attribute name="title" value=""/>
+        <put-attribute name="header" value="/WEB-INF/pages/header.jsp"/>
+        <put-attribute name="menu" value="/WEB-INF/pages/menu.jsp"/>
+        <put-attribute name="body" value=""/>
+        <put-attribute name="footer" value="/WEB-INF/pages/footer.jsp"/>
+    </definition>
+    <definition extends="base.definition" name="openAccountForm">
+        <put-attribute name="title" value="Account Open Form"/>
+        <put-attribute name="body" value="/WEB-INF/pages/account-form.jsp"/>
+    </definition>
+    <definition extends="base.definition" name="accountsList">
+        <put-attribute name="title" value="Employees List"/>
+        <put-attribute name="body" value="/WEB-INF/pages/accounts.jsp"/>
+    </definition>
+</tiles-definitions>

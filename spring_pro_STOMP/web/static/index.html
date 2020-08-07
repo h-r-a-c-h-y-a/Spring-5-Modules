@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stock Ticker</title>
+    <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+    <script src="../static/stomp.js"></script>
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+<h1><b>Stock Ticker</b></h1>
+<table border="1">
+    <thead>
+    <tr>
+        <th>Code</th>
+        <th>Price</th>
+        <th>Time</th>
+    </tr>
+    </thead>
+    <tbody id="price"></tbody>
+</table>
+<p class="addStock">
+    Code: <input class="code"/><br/>
+    Price: <input class="price"/><br/>
+    <button class="addStockButton">Add Stock</button>
+</p>
+<script src="../static/index.js"></script>
+</body>
+</html>

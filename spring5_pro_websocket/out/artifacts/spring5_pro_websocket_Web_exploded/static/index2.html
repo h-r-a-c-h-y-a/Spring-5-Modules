@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SockJS Tester</title>
+    <script language="JavaScript" type="text/javascript" src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+    <script language="javascript" type="text/javascript"
+            src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="../static/index2.js"></script>
+</head>
+    <body>
+        <h2>SockJS Tester</h2>
+        <input id="target" size="40" value="http://localhost:8080/sockjs/echoHandler"/>
+        <br/>
+        <button id="connect">Connect</button>
+        <button id="disconnect">Disconnect</button>
+        <br/>
+        <br/>Message:
+            <input id="message" value=""/>
+            <button id="send">Send</button>
+        <br/>
+        <p>Status output:</p>
+        <pre><textarea id="statusOutPut" rows="10" cols="50"></textarea> </pre>
+        <p>Message output:</p>
+        <pre><textarea id="messageOutPut" rows="10" cols="50"></textarea> </pre>
+        <p>Ping output:</p>
+        <pre><textarea id="pingOutPut" rows="10" cols="50"></textarea> </pre>
+
+    </body>
+</html>

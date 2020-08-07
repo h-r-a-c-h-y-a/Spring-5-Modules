@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c21e585-6661-49ed-bb9e-641f09e88345" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cf6EnNWYfvtZQQECueN7u1tdyP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hrach\IdeaProjects\spring5_pro_script-engine\src\main\resources\static\js" />
+      <recent name="C:\Users\Hrach\IdeaProjects\spring5_pro_script-engine\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Groovy.demo">
+    <configuration name="JavaScriptTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="-Dnashorn.args" value="--language=es6" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="am.gitc.JavaScriptTest" />
+      <module name="spring5_pro_script-engine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="am.gitc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListScriptEngines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="am.gitc.ListScriptEngines" />
+      <module name="spring5_pro_script-engine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="am.gitc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="spring5_pro_script-engine" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/main/resources/static/groovy/demo.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/main/resources/static/groovy" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.JavaScriptTest" />
+      <item itemvalue="Application.ListScriptEngines" />
+      <item itemvalue="Groovy.demo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Groovy.demo" />
+        <item itemvalue="Application.JavaScriptTest" />
+        <item itemvalue="Application.ListScriptEngines" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c21e585-6661-49ed-bb9e-641f09e88345" name="Default Changelist" comment="" />
+      <created>1590907191531</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590907191531</updated>
+      <workItem from="1590907198510" duration="6962000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="464" y="23" key="#Project_Structure" timestamp="1590907532543">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="464" y="23" key="#Project_Structure/0.0.1280.728@0.0.1280.728" timestamp="1590907532543" />
+    <state x="188" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590909588564">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="188" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.728@0.0.1280.728" timestamp="1590909588564" />
+    <state x="583" y="280" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1590910716924">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="583" y="280" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.0.1280.728@0.0.1280.728" timestamp="1590910716924" />
+    <state x="770" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1590913060534">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="770" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.728@0.0.1280.728" timestamp="1590913060534" />
+    <state width="582" height="171" key="GridCell.Tab.0.bottom" timestamp="1590915208418">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="582" height="171" key="GridCell.Tab.0.bottom/0.0.1280.728@0.0.1280.728" timestamp="1590915208418" />
+    <state width="582" height="171" key="GridCell.Tab.0.center" timestamp="1590915208418">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="582" height="171" key="GridCell.Tab.0.center/0.0.1280.728@0.0.1280.728" timestamp="1590915208418" />
+    <state width="582" height="171" key="GridCell.Tab.0.left" timestamp="1590915208418">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="582" height="171" key="GridCell.Tab.0.left/0.0.1280.728@0.0.1280.728" timestamp="1590915208418" />
+    <state width="582" height="171" key="GridCell.Tab.0.right" timestamp="1590915208418">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="582" height="171" key="GridCell.Tab.0.right/0.0.1280.728@0.0.1280.728" timestamp="1590915208418" />
+    <state width="582" height="213" key="GridCell.Tab.1.bottom" timestamp="1590915208406">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="582" height="213" key="GridCell.Tab.1.bottom/0.0.1280.728@0.0.1280.728" timestamp="1590915208406" />
+    <state width="582" height="213" key="GridCell.Tab.1.center" timestamp="1590915208405">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="582" height="213" key="GridCell.Tab.1.center/0.0.1280.728@0.0.1280.728" timestamp="1590915208405" />
+    <state width="582" height="213" key="GridCell.Tab.1.left" timestamp="1590915208405">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="582" height="213" key="GridCell.Tab.1.left/0.0.1280.728@0.0.1280.728" timestamp="1590915208405" />
+    <state width="582" height="213" key="GridCell.Tab.1.right" timestamp="1590915208406">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="582" height="213" key="GridCell.Tab.1.right/0.0.1280.728@0.0.1280.728" timestamp="1590915208405" />
+    <state x="240" y="0" key="SettingsEditor" timestamp="1590913110382">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="240" y="0" key="SettingsEditor/0.0.1280.728@0.0.1280.728" timestamp="1590913110382" />
+    <state x="131" y="67" key="new project wizard" timestamp="1590915205629">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="131" y="67" key="new project wizard/0.0.1280.728@0.0.1280.728" timestamp="1590915205629" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am/gitc/ListScriptEngines.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am/gitc/ListScriptEngines.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am/gitc/JavaScriptTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/resources/static/groovy/demo.groovy</url>
+          <line>18</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/resources/static/groovy/demo.groovy</url>
+          <line>29</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

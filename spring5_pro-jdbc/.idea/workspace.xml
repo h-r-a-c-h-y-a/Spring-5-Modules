@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81744fe6-3aca-4096-851c-65d8f49cdbfd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cJ2oi6hwEcozEP313md0uwFehE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/am.gitc/newer" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hrach\IdeaProjects\spring5_pro-jdbc\src\main\java\am.gitc\newer" />
+      <recent name="C:\Users\Hrach\IdeaProjects\spring5_pro-jdbc\src\main\resources\db" />
+      <recent name="C:\Users\Hrach\IdeaProjects\spring5_pro-jdbc\src\main\resources" />
+      <recent name="C:\Users\Hrach\IdeaProjects\spring5_pro-jdbc\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="am.gitc.dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hrach\IdeaProjects\spring5_pro-jdbc\src\main\java\am.gitc" />
+      <recent name="C:\Users\Hrach\IdeaProjects\spring5_pro-jdbc\src\main" />
+      <recent name="C:\Users\Hrach\IdeaProjects\spring5_pro-jdbc\src\main\resources\static\db" />
+      <recent name="C:\Users\Hrach\IdeaProjects\spring5_pro-jdbc\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DbConfigTest">
+    <configuration name="DbConfigTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="am.gitc.DbConfigTest" />
+      <module name="spring5_pro-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="am.gitc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlainJdbcDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="am.gitc.PlainJdbcDemo" />
+      <module name="spring5_pro-jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="am.gitc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DbConfigTest" />
+        <item itemvalue="Application.PlainJdbcDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.09556314" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:musicdb@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:musicdb@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@1c06c579" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81744fe6-3aca-4096-851c-65d8f49cdbfd" name="Default Changelist" comment="" />
+      <created>1590232551537</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590232551537</updated>
+      <workItem from="1590232556857" duration="14422000" />
+      <workItem from="1590298442093" duration="8767000" />
+      <workItem from="1590309460000" duration="5773000" />
+      <workItem from="1590315901829" duration="94000" />
+      <workItem from="1591033886579" duration="336000" />
+      <workItem from="1592751351322" duration="172000" />
+      <workItem from="1592751697077" duration="649000" />
+      <workItem from="1592807507759" duration="515000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="638" y="230" key="#com.intellij.codeInsight.i18n.I18nizeQuickFixDialog" timestamp="1590303901272">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="638" y="230" key="#com.intellij.codeInsight.i18n.I18nizeQuickFixDialog/0.0.1280.728@0.0.1280.728" timestamp="1590303901272" />
+    <state x="0" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590308940836">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="0" y="46" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.728@0.0.1280.728" timestamp="1590308940836" />
+    <state x="756" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1590314261369">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="756" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1280.728@0.0.1280.728" timestamp="1590314261369" />
+    <state x="697" y="253" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1592751377785">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="697" y="253" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.728@0.0.1280.728" timestamp="1592751377785" />
+    <state x="625" y="291" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1590314037048">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="625" y="291" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.728@0.0.1280.728" timestamp="1590314037048" />
+    <state x="706" y="70" key="#xdebugger.evaluate" timestamp="1590242615278">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="706" y="70" key="#xdebugger.evaluate/0.0.1280.728@0.0.1280.728" timestamp="1590242615278" />
+    <state width="305" height="438" key="DebuggerActiveHint" timestamp="1590312797568">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="305" height="438" key="DebuggerActiveHint/0.0.1280.728@0.0.1280.728" timestamp="1590312797568" />
+    <state x="482" y="72" key="FileChooserDialogImpl" timestamp="1590299302728">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="482" y="72" key="FileChooserDialogImpl/0.0.1280.728@0.0.1280.728" timestamp="1590299302728" />
+    <state width="634" height="171" key="GridCell.Tab.0.bottom" timestamp="1590315628351">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="634" height="171" key="GridCell.Tab.0.bottom/0.0.1280.728@0.0.1280.728" timestamp="1590315628351" />
+    <state width="634" height="171" key="GridCell.Tab.0.center" timestamp="1590315628349">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="634" height="171" key="GridCell.Tab.0.center/0.0.1280.728@0.0.1280.728" timestamp="1590315628349" />
+    <state width="634" height="171" key="GridCell.Tab.0.left" timestamp="1590315628349">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="634" height="171" key="GridCell.Tab.0.left/0.0.1280.728@0.0.1280.728" timestamp="1590315628349" />
+    <state width="634" height="171" key="GridCell.Tab.0.right" timestamp="1590315628351">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="634" height="171" key="GridCell.Tab.0.right/0.0.1280.728@0.0.1280.728" timestamp="1590315628351" />
+    <state width="634" height="277" key="GridCell.Tab.1.bottom" timestamp="1590315628343">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="634" height="277" key="GridCell.Tab.1.bottom/0.0.1280.728@0.0.1280.728" timestamp="1590315628343" />
+    <state width="634" height="277" key="GridCell.Tab.1.center" timestamp="1590315628342">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="634" height="277" key="GridCell.Tab.1.center/0.0.1280.728@0.0.1280.728" timestamp="1590315628342" />
+    <state width="634" height="277" key="GridCell.Tab.1.left" timestamp="1590315628342">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="634" height="277" key="GridCell.Tab.1.left/0.0.1280.728@0.0.1280.728" timestamp="1590315628342" />
+    <state width="634" height="277" key="GridCell.Tab.1.right" timestamp="1590315628343">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="634" height="277" key="GridCell.Tab.1.right/0.0.1280.728@0.0.1280.728" timestamp="1590315628343" />
+    <state x="381" y="66" key="NewModule_or_Project.wizard" timestamp="1590299321729">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="381" y="66" key="NewModule_or_Project.wizard/0.0.1280.728@0.0.1280.728" timestamp="1590299321729" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1590309932447">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="0" y="0" key="SettingsEditor/0.0.1280.728@0.0.1280.728" timestamp="1590309932447" />
+    <state width="341" height="364" key="XDebugger.FullValuePopup" timestamp="1590307131021">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state width="341" height="364" key="XDebugger.FullValuePopup/0.0.1280.728@0.0.1280.728" timestamp="1590307131021" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1592808061436">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1280.728@0.0.1280.728" timestamp="1592808061436" />
+    <state x="676" y="133" key="extract.method.dialog" timestamp="1590314342111">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="676" y="133" key="extract.method.dialog/0.0.1280.728@0.0.1280.728" timestamp="1590314342111" />
+    <state x="131" y="60" key="new project wizard" timestamp="1590315619988">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="131" y="60" key="new project wizard/0.0.1280.728@0.0.1280.728" timestamp="1590315619988" />
+    <state x="614" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1590235343769">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="614" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1280.728@0.0.1280.728" timestamp="1590235343769" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am.gitc/dao/impl/PlainSingerDao.java</url>
+          <line>163</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am.gitc/PlainJdbcDemo.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am.gitc/PlainJdbcDemo.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am.gitc/dao/impl/PlainSingerDao.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am.gitc/dao/impl/PlainSingerDao.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am.gitc/PlainJdbcDemo.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am.gitc/PlainJdbcDemo.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am.gitc/dao/impl/PlainSingerDao.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am.gitc/dao/impl/PlainSingerDao.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am.gitc/dao/impl/PlainSingerDao.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am.gitc/DbConfigTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am.gitc/DbConfigTest.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am.gitc/DbConfig.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/am.gitc/DbConfig.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
